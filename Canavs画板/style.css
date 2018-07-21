@@ -1,0 +1,34 @@
+html,body{
+    margin: 0;
+    padding: 0;
+
+}
+#canvas{
+    background-color: green;
+    display: block;      /*canvas要改为块级元素*/
+    
+}
+
+button{
+    border-radius: 5px
+}
+
+.actions{
+    position:fixed;
+    bottom: 5px;
+    left: 5px;
+    
+}
+
+.actions #brush{
+    display: none;
+}
+.actions.x #brush{
+    display: inline-block;
+}
+.actions.x #eraser{
+    display: none;
+}
+
+
+
