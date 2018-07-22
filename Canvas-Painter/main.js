@@ -173,8 +173,10 @@
     //     context.stroke()}
 
     function drawline(x1, y1, x2, y2) {
-
+        context.lineCap = 'round'
+        context.lineJoin = 'round'
         context.beginPath()
+        
         context.moveTo(x1, y1)
         context.lineWidth = lineWidth
         context.lineTo(x2, y2)
